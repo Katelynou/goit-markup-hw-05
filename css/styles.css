@@ -734,7 +734,7 @@ button {
     color: #8e8f99;
 }
 
-.modal-check:checked + .sp-modal {
+.modal-check:checked + .modal-label-check .sp-modal {
     fill: #F4F4FD;
     background-color: #404bbf;
     border: none;
