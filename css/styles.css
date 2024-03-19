@@ -684,8 +684,11 @@ button {
 }
 
 .modal-input:focus + .modal-user-icon {
-    border-color: #4D5AE5;
     fill: #4D5AE5;
+}
+
+.modal-input:focus {
+    border-color: #4D5AE5;
 }
 
 .modal-user-icon {
@@ -752,7 +755,7 @@ button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    fill: transparent
+    fill: transparent;
 }
 
 .modal-button {
